@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yesBtn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background-color: #ccc;
+}
+
+.love-message {
+  text-align: center;
+  background: white;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: pop 0.6s ease;
+}
+
+.heart {
+  font-size: 80px;
+  margin: 20px 0;
+}
+
+.flowers {
+  font-size: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.valentine-bg {
+  background-image: url("backround.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
